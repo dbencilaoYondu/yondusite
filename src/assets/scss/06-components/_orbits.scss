@@ -1,0 +1,27 @@
+//carousel
+.orbit{
+  &-container{
+    height:100vh !important;
+  }
+  &-nav-container{
+     width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 94px;
+    top: 90%;
+  }
+  &-next{
+    right: auto;
+    margin-left: 40px;
+    color:#444;
+  }
+  &-previous{
+     left: auto;
+     color:#444;
+  }
+  &-image{
+    height:100vh;
+  }
+
+}

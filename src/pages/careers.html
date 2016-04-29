@@ -1,26 +1,22 @@
 <div class="cms-main">
-  <div class="cms-main__jumbotron careers">
+  <div class="section jumbotron careers">
     <div class="overlay"></div>
-      <div class="cms-main__jumbotron_wrapper">
+      <div class="jumbotron_wrapper">
         <h1 class="title">CAREERS</h1>
         <div class="content">
           <p>Lorem ipsum dolor sit amet, consectetur a dipiscing elit. Nam in leo tortor. In hac habitasse platea dictumst.</p>
-
         </div>
-        <div data-magellan data-bar-offset="-25">
-          <a href="#first" class="down warning button" ><i class="fa fa-chevron-down" aria-hidden="true"></i></a> 
-
-        </div> 
-        
-      </div>
-      
+        <div>
+          <a href="#secondPage" class="down warning button" ><i class="fa fa-chevron-down" aria-hidden="true"></i></a> 
+        </div>   
+      </div> 
   </div>
-  <div class="cms-main__content">
-    <div class="cms-main__content_wrapper careers" id="first" data-magellan-target="first" >
+  <div class="section cms-main__content">
+    <div class="cms-main__content_wrapper careers">
        <h2 class="title">LET'S WORK TOGETHER</h2>
         <p class="title-sub">Check out the current job openings that best suits you.</p>
         
-<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
         <ul class="orbit-container">
           
           <li class="is-active orbit-slide">
@@ -187,6 +183,11 @@
     </div>
    
   </div>
+   <footer class="section">
+     <div class="cms-main__content_wrapper">
+        {{> footer}}
+      </div>
+  </footer>
 </div>
 
 {{> applyModal}}

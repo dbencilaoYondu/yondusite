@@ -56,6 +56,8 @@
  */
 @import "04-base/html";
 @import "04-base/body";
+@import "04-base/p";
+
 //@import "04-base/section";
 
 /**
@@ -74,7 +76,9 @@
 @import "06-components/button";
 @import "06-components/cms-header";
 @import "06-components/cms-form";
-@import "06-components/_reveals";
+@import "06-components/reveals";
+@import "06-components/orbits";
+@import "06-components/jumbotron";
 //@import "06-components/waiting-screen";
 //@import "06-components/thumbnail-img";
 //@import "06-components/main-nav";

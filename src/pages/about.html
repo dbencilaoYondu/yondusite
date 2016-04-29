@@ -1,6 +1,7 @@
 <div class="cms-main">
-  <section class="section cms-main__jumbotron about">
-      <div class="cms-main__jumbotron_wrapper">
+  <section class="section jumbotron about">
+    <div class="overlay"></div>
+      <div class="jumbotron_wrapper">
         <h1 class="title">ABOUT YONDU</h1>
         <div class="content">
           <p>Yondu, a technology solutions company established in 2001, 
@@ -63,7 +64,9 @@
     </div>
    
   </section>
-  <footer class="section">
-    {{> footer}}
+   <footer class="section">
+     <div class="cms-main__content_wrapper">
+        {{> footer}}
+      </div>
   </footer>
 </div>

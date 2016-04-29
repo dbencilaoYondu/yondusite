@@ -1,3 +1,6 @@
+
+
+
 .cms-main {
   min-height: 100%;
   margin-bottom: -40px;
@@ -41,6 +44,7 @@
   }
   &__content {
      background-color:#EAEAEA;
+
     &_wrapper{
       margin:0 auto 12px auto;
       max-width:73em;
@@ -75,8 +79,7 @@
       &.careers{
         .orbit{
           &-container{
-            min-height: 560px;
-            
+            min-height: 560px; 
           }
           &-nav-container{
              width: 100px;
@@ -84,7 +87,7 @@
             margin: 0 auto;
             left: 0;
             right: 94px;
-            top: 98%;
+            top: 78%;
           }
 
           &-next{
@@ -138,6 +141,12 @@
 
       }
     }
+    &_inside{
+      @include vertical-center;
+      max-width:520px;
+      @include horizontal-center;
+      transform: translate(-50%,-70%);
+    }
     
   }
   &__footer {
@@ -168,108 +177,7 @@
   }
   
 
-  &__jumbotron{
-    background-size:cover;
-    height: 100vh;
-    width: 100%;
-    .overlay{
-        background-color:rgba(0, 0, 0, 0.51);
-        width:100%;
-        height:100%;
-      }
-    &.home{
-      background-image: url("../img/jumbotron-home.jpg");
-      background-repeat:no-repeat;
-      background-position: center center;
-
-      .cms-main__jumbotron_wrapper{
-        top: 37%;
-        h1{
-          font-size:36px;
-          font-family:karla;
-          font-weight:bold;
-          margin-bottom:0;
-        }
-        h2{
-           font-size:16px;
-           line-height:8px;
-           margin:0;
-          font-family:karla;
-          font-weight:bold;
-          color:#fff;
-        }
-        .content{
-          margin-top:24px;
-          font-family:karla;
-          p{
-            line-height:24px;
-          }
-        }
-      }
-      .warning{
-        border:0;
-      }
-
-
-    }
-    &.about{
-      background-image: url("../img/jumbotron-about.jpg");
-      background-repeat:no-repeat;
-      background-position: center center;
-    }
-    &.products{
-      background-image: url("../img/jumbotron-products.jpg");
-      background-repeat:no-repeat;
-      background-position: center center;
-    }
-    &.services{
-      background-image: url("../img/jumbotron-products.jpg");
-      background-repeat:no-repeat;
-      background-position: center center;
-    }
-    &.careers{
-      background-image: url("../img/jumbotron-careers.jpg");
-      background-repeat:no-repeat;
-      background-position: center center;
-    }
-    
-   
-    &_wrapper{
-      @include vertical-center;
-      @include horizontal-center;
-      top:28%;
-      text-align:center;
-      max-width:560px;
-      //font-family:karla;
-
-      .title{
-        font-size:36px;
-        color:#fff;
-        font-weight:bold;
-      }
-      .content{
-        font-weight: 500;
-        font-size: 21px;
-        color:#fff;
-      }
-      .play{
-        border-radius:0;
-        color:#fff;
-        border-color:#fff;
-        border-width: medium;
-      }
-      .down{
-            position: absolute;
-            right:0;
-            left: 0;
-            top: 460px;
-            width: 45px;
-            margin: 0 auto;
-            border-radius: 0;
-      }
-    }
-    
-  }
+  
 }
 
 a[data-type="fb"] {background: #3b5998;}
@@ -339,28 +247,3 @@ a[data-type="fb"] {background: #3b5998;}
           }
         }
         
-//carousel
-.orbit{
-  &-container{
-    height:100vh !important;
-  }
-  &-nav-container{
-     width: 100px;
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 94px;
-    top: 90%;
-  }
-  &-next{
-    right: auto;
-    margin-left: 40px;
-  }
-  &-previous{
-     left: auto;
-  }
-  &-image{
-    height:100vh;
-  }
-
-}
