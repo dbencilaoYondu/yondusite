@@ -1,0 +1,6 @@
+.main-title {
+  @extend %header-title;
+  &__sub {
+    @extend %subheader-title;
+  }
+}

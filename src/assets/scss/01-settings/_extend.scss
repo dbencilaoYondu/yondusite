@@ -1,0 +1,25 @@
+
+%header-title {
+  font-family: $font-myriad;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: auto;
+  color: $dark;
+}
+
+%subheader-title {
+  font-family: $font-helvetica;
+  font-weight: 600;
+  font-size: 14px;
+  color: $dark;
+}
+
+%mini-text{
+  font-family: $font-helvetica;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+%button-effect{
+   transition: all 250ms;
+}

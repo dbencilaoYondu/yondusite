@@ -1,0 +1,34 @@
+$dark: #1e1e1e;
+$dark-gray: #303337;
+$gray: #6c727a;
+$lighter-gray: #868686;
+$smoke-gray: #d7d7d7;
+$blue-green: #46c0a8;
+$navy-blue: #4a5a70;
+
+
+//Transition Effect
+
+
+//Header
+$header-bg: $blue-green;
+
+//font
+$font-dark: $dark;
+$font-myriad: 'Myriad Pro';
+$font-helvetica: 'Helvetica Neue';
+$font-base: $font-helvetica;
+
+//$header-title: $font-helvica;
+
+//footer
+$footer-bg: $smoke-gray;
+
+$button-blue: $blue-green;
+$button-navy: $navy-blue;
+$button-gray: $lighter-gray;
+
+//Forms
+
+$input-border-focus: 1px solid $blue-green;
+$input-background-disabled: $smoke-gray;

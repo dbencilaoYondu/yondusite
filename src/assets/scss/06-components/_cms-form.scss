@@ -1,0 +1,60 @@
+.cms-form {
+  &__label {
+    color: red;
+  }
+  &__input {
+    position: relative;
+    
+    
+    &.is-correct {
+//      &:after {
+//        content: "Hello world";
+//        color: #000;
+//        font-size: 14px;
+//        padding-right: 0.5em;
+//        position: absolute;
+//        top: 9px;
+//        right: 14px;
+//      }
+      &:before {
+        content: "\f058";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        /*--adjust as necessary--*/
+        color: #000;
+        font-size: 14px;
+        padding-right: 0.5em;
+        position: absolute;
+        top: 9px;
+        right: 14px;
+      }
+    }
+    &.is-wrong {
+        &:before {
+        content: "\f06a";
+        font-family: FontAwesome;
+        font-style: normal;
+        font-weight: normal;
+        text-decoration: inherit;
+        /*--adjust as necessary--*/
+        color: #000;
+        font-size: 14px;
+        padding-right: 0.5em;
+        position: absolute;
+        top: 9px;
+        right: 14px;
+      }
+    }
+    &.is-focus {
+      input[type="text"] {
+        border-color: $blue-green;
+      }
+    }
+    input[type="text"]  {
+      padding-right: 20px;
+      padding-left: 15px;
+    }
+  }
+}

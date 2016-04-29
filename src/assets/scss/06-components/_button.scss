@@ -1,0 +1,30 @@
+.button {
+  
+  @extend %button-effect;
+  border-radius: 5px;
+  &:hover {
+    @include box_shadow(3);
+    @extend %button-effect;
+  }
+  &--blue{
+    background-color: $button-blue;
+    &:hover,
+    &:focus{
+      background-color: $button-blue;
+    }
+  }
+  &--navy {
+    background-color: $button-navy;
+    &:hover,
+    &:focus{
+      background-color: $button-navy;
+    }
+  }
+  &--gray {
+    background-color: $button-gray;
+    &:hover,
+    &:focus{
+      background-color: $button-gray;
+    }
+  }
+}

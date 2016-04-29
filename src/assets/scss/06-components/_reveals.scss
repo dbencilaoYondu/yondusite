@@ -1,0 +1,57 @@
+.reveal{
+	padding:0;
+	h3{
+				font-size:16px;
+				font-family:karla;
+				font-weight:700;
+			}
+	&#applyModal{
+		.header{
+			background-color:#53bfa6;
+			padding:1rem;
+			h1{
+				font-size:28px;
+				font-family:karla;
+				margin:0;
+				color:#fff;
+			}
+		}
+		.body{
+			padding:1rem;
+			ul{
+				color:#989898;
+			}
+			
+		}
+		.footer{
+			padding:1rem;
+			&__wrapper{
+				max-width:300px;
+				margin:0 auto;
+				.cv{
+					background-color:#a5a5a5;
+					border-radius:0;
+				}
+				.submit{
+					background-color:#53bfa6;
+					border-radius:0;
+				}
+			} 
+		}
+	}
+	&#socialShare{
+		    display: block;
+		    top: 174px;
+		    background-color: rgba(166, 174, 180, 0.0);
+		    border: 0;
+		    height: auto;
+		    width: 100%;
+		    text-align: center;
+		    padding-top: 18px;
+		    border-radius:4px;
+	}
+}
+
+.reveal-overlay{
+	    background-color: rgba(10, 10, 10, 0.76);
+}
