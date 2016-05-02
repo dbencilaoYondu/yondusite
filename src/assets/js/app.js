@@ -32,6 +32,7 @@ $(document).ready(function(){
           navigation:true,
           fixedElements: '#fixme, .footer',
           navigationTooltips: ['jumbotron', ' ', ' ',' ' , ' ', ' '],
+          easing:'easeOutQuad',
           //events
           onLeave: function(index, nextIndex, direction){
           	console.log(`on leave ${index}`);
